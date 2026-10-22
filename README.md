@@ -1,71 +1,47 @@
 <div align="center">
 
-# 🖥️ Terminal QUX
+# ⚡ Smart Projects Hub
 
-*Простой кастомный терминал на базе Python и CustomTkinter.*
+**Сборка высокопроизводительных Python-инструментов, системных утилит и графических симуляций.**
+
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg?style=for-the-badge)](https://github.com/ScuizzyBytes)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Code Style](https://img.shields.io/badge/code%20style-PEP8-orange.svg?style=for-the-badge)](https://peps.python.org/pep-0008/)
 
 ---
 
 </div>
 
-<div align="center">
+## 📌 О проекте
 
-### 📌 О проекте
+**Smart Projects** — это центральный репозиторий, объединяющий серию специализированных приложений и экспериментов: от низкоуровневого взаимодействия с ОС и кастомных CLI-эмуляторов до графических движков и систем мониторинга процессов.
 
-**Terminal QUX** — это десктопное приложение, имитирующее командную строку/терминал в стильном тёмном оформлении. Проект написан с использованием объектно-ориентированного подхода (ООП) на Python.
+Каждый модуль спроектирован с упором на системный контроль, чистую архитектуру и высокую скорость работы.
 
-> **Примечание:** К сожалению, на данный момент в терминале доступно **только 3 функции**. Проект находится в процессе разработки!
+---
 
-</div>
+## 🚀 Ключевые Модули
 
-<hr>
+* **🎮 Pygame & Graphics Engine** — физические симуляции, обработка частиц и шейдерная логика.
+* **⚡ CyberShell & CLI Tools** — консольные эмуляторы с цветовой ANSI-разметкой и поддержкой кастомных системных команд.
+* **📊 Hardware & PC Monitor** — мониторинг ресурсов системы в реальном времени (CPU, RAM, процессы) на базе `psutil` и `rich`.
+* **⚙️ Custom Tkinter GUI** — функциональные графические интерфейсы с кастомной калибровкой компонентов.
 
-<div>
+---
 
-### 🚀 Доступные команды
+## 🛠️ Технологический Стек
 
-Сейчас терминал умеет обрабатывать 3 основные команды:
+* **Язык:** `Python 3.10+`
+* **Графика и GUI:** `Pygame`, `CustomTkinter`, `OpenCV (cv2)`
+* **Системный уровень:** `psutil`, `subprocess`, `os`, `platform`
+* **Консольный UI:** `Rich`, `ANSI Escape Codes`
 
-1. 📁 **`mkdir <имя_папки>`**
-   * **Описание:** Создаёт новую папку прямо на вашем Рабочем столе (`Desktop`).
-   * **Пример:** `mkdir MyNewFolder`
+---
 
-2. 💬 **`echo <текст>`**
-   * **Описание:** Выводит указанный текст на экран приложения со смещением вниз.
-   * **Пример:** `echo Hello World`
+## ⚡ Быстрый Запуск
 
-3. ⚠️ **`messagebox <текст>`**
-   * **Описание:** Вызывает системное всплывающее окно с ошибкой/уведомлением и переданным текстом.
-   * **Пример:** `messagebox Ошибка подключения!`
-
-</div>
-
-<hr>
-
-<div>
-
-### 🛠️ Технологии
-
-* **Python 3.x**
-* **CustomTkinter** — современный графический интерфейс.
-* **Tkinter (messagebox)** — системные диалоговые окна.
-* **OS** — взаимодействие с файловой системой Windows.
-
-</div>
-
-<hr>
-
-<div align="center">
-
-### 💻 Запуск приложения
-
-1. Установите зависимость:
-   ```bash
-   pip install customtkinter
-   ```
-2. Запустите главный файл:
-   ```bash
-   python main.py
-   ```
-
-</div>
+### 1. Клонирование репозитория
+```bash
+git clone [https://github.com/ScuizzyBytes/Smart-Projects.git](https://github.com/ScuizzyBytes/Smart-Projects.git)
+cd Smart-Projects
